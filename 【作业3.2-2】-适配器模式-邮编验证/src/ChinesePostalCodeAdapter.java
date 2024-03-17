@@ -6,7 +6,6 @@ public class ChinesePostalCodeAdapter extends ChinesePostalCode implements ZipCo
     }
 
     public boolean isValidZipCode(String zip, String state) {
-        // In Chinese postal code, state parameter is not applicable
         return chinesePostalCode.isValidChinesePCode(zip);
     }
 }
