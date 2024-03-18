@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/【作业2.1-1】-工厂方法模式-汽车保险/【作业2.1-1】-工厂方法模式-汽车保险.iml" filepath="$PROJECT_DIR$/【作业2.1-1】-工厂方法模式-汽车保险/【作业2.1-1】-工厂方法模式-汽车保险.iml" />
-      <module fileurl="file://$PROJECT_DIR$/【作业3.1-1】-组合模式-空军指挥/【作业3.1-1】-组合模式-空军指挥.iml" filepath="$PROJECT_DIR$/【作业3.1-1】-组合模式-空军指挥/【作业3.1-1】-组合模式-空军指挥.iml" />
-      <module fileurl="file://$PROJECT_DIR$/【作业3.2-2】-适配器模式-邮编验证/【作业3.2-2】-适配器模式-邮编验证.iml" filepath="$PROJECT_DIR$/【作业3.2-2】-适配器模式-邮编验证/【作业3.2-2】-适配器模式-邮编验证.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/设计模式.iml" filepath="$PROJECT_DIR$/.idea/设计模式.iml" />
     </modules>
   </component>
