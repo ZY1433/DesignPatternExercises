@@ -9,19 +9,21 @@ public class StudentInfoFacade {
      private AcademicRecord   academicRecord;
 	 private Award   award;
 	 private Tuition tuition;
-	 private final String AWARDS = "StudentAward.txt";
-	 private final String RECORDS = "StudentAcademicRecord.txt";
-
+	 private final String AWARDS = "【作业3.3-1】-外观模式-毕业生信息/src/StudentAward.txt";
+     private final String RECORDS = "【作业3.3-1】-外观模式-毕业生信息/src/StudentAcademicRecord.txt";
+     private final String TUITION = "【作业3.3-1】-外观模式-毕业生信息/src/Tuition.txt";
      public  StudentInfoFacade(String firstName, String lastName, String studentNum){
            this.firstName = firstName;
            this.lastName = lastName;
            this.studentNum = studentNum;
      }
 
-  // Get comprehensive student information by calling 3 methods
-  // in this class, including basic student information, student
-  // academic records, and possible awards info. Client class can
-  // just call this method to get all the information.
+  /**
+   * Get comprehensive student information by calling 3 methods
+   * in this class, including basic student information, student
+   * academic records, and possible awards info. Client class can
+   * just call this method to get all the information.
+   */
   public String getStudentInfo(){
 	    String nm = firstName+" "+lastName;
 	    if( StudentBasicInfo.isExistingStudentName(nm)==false) {
@@ -33,8 +35,8 @@ public class StudentInfoFacade {
          String info = extractStudentInfo();
          String record = extractAcademicRecord();
          String awards = extractAllAwards();
-
-         allInfo = "\nBasic Student Info: \n"+info+"\nAcademic record: \n"+record+"\nAwards: \n"+awards;
+         String tuition = extractTuitionInfo();
+         allInfo = "\nBasic Student Info: \n"+info+"\nAcademic record: \n"+record+"\nAwards: \n"+awards+"\nTuition: \n"+tuition;
          return allInfo;
   }
 
@@ -107,9 +109,12 @@ public class StudentInfoFacade {
 
    // Students are supposed to finish this homework
   public String extractTuitionInfo(){
-  	      String allInfo = " ";
-          // Students are supposed to finish this part
-            return allInfo;
+      String allInfo = " ";
+      tuition = new Tuition(firstName, lastName, studentNum);
+      ArrayList<String> tui = tuition.getStudentTuitionInfo(TUITION);
+      String info = tui.get(0);
+      // Students are supposed to finish this part
+      return info;
   }
 }
 

@@ -8,7 +8,7 @@ public class Tuition {
 	  private String firstName;
 	  private String lastName;
 	  private String studNum;
-	  private final String STUDENT_TUITION_FILE = "Tuition.txt";
+	  private final String STUDENT_TUITION_FILE = "【作业3.3-1】-外观模式-毕业生信息/src/Tuition.txt";
 	  private ArrayList<String> studentTuition;
 
 	 //constructor
@@ -19,17 +19,19 @@ public class Tuition {
 	  }
 
  //Get tuition information paid by students
- public ArrayList<String> getStudentTuitionInfo(){
+ public ArrayList<String> getStudentTuitionInfo(String file){
 			studentTuition = new ArrayList();
 			try {
-			   BufferedReader reader = new BufferedReader(new FileReader(STUDENT_TUITION_FILE));
+			   BufferedReader reader = new BufferedReader(new FileReader(file));
 			   String line = reader.readLine();
 			   while(line != null) {
 				if (line.length() != 0) {
 				  String[] arr = line.split("\\,");
 
-				  if( arr[0].trim().equals(firstName) && arr[1].trim().equals(lastName)&& arr[2].trim().equals(studNum)   )
+				  if( arr[0].trim().equals(firstName) && arr[1].trim().equals(lastName)&& arr[2].trim().equals(studNum)   ) {
 					  studentTuition.add(line);
+					  break;
+				  }
 				}
 				line = reader.readLine();
 				}
