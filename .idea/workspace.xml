@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e1d1056-e820-4ef8-b60f-bd28314efd61" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/EncryptedInfo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/EncryptedInfo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/src/Tuition.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/src/Tuition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/EncryptedInfo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/EncryptedInfo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/设计模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/设计模式.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <updated>1710755235570</updated>
       <workItem from="1710755239134" duration="302000" />
       <workItem from="1710755774641" duration="272000" />
-      <workItem from="1711328618064" duration="9724000" />
+      <workItem from="1711328618064" duration="9788000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/【作业2.1-1】-工厂方法模式-汽车保险" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业3.1-1】-组合模式-空军指挥" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业3.2-2】-适配器模式-邮编验证" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业3.3-1】-外观模式-毕业生信息" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业3.4-2】-桥接模式-特工信息" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
