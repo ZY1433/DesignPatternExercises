@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5e1d1056-e820-4ef8-b60f-bd28314efd61" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/~$mework 3.3-1-外观模式.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/AgentGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/AgentGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/src/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentBasicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentBasicInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentInfoFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentInfoFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/TuitionInfoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/Homework 3.3-1-外观模式.doc" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/Homework 3.3-1-外观模式.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/src/StudentBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/src/StudentBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/【作业3.3-1】-外观模式-毕业生信息.iml" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/【作业3.3-1】-外观模式-毕业生信息.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.AgentGUI">
+  <component name="RunManager" selected="应用程序.ClientGUI">
     <configuration name="AgentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AgentGUI" />
       <module name="【作业3.4-2】-桥接模式-特工信息" />
@@ -77,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.AgentGUI" />
         <item itemvalue="应用程序.ClientGUI" />
+        <item itemvalue="应用程序.AgentGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +95,7 @@
       <updated>1710755235570</updated>
       <workItem from="1710755239134" duration="302000" />
       <workItem from="1710755774641" duration="272000" />
-      <workItem from="1711328618064" duration="7129000" />
+      <workItem from="1711328618064" duration="8422000" />
     </task>
     <servers />
   </component>

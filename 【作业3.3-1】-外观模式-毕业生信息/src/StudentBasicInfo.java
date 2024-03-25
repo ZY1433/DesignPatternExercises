@@ -76,7 +76,6 @@ public class StudentBasicInfo {
 
 					  if( bsim.getName().equals(name) && bsim.getSerialNum().equals(serialNum) ) {
 						  student.add(bsim);
-						  break;
 //						  System.out.println(bsim);
 					  }
 				  }

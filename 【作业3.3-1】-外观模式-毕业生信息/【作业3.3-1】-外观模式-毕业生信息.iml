@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模板代码" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/模板代码" />
     </content>
     <orderEntry type="inheritedJdk" />
