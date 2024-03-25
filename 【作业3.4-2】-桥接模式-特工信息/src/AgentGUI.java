@@ -11,6 +11,7 @@ public class AgentGUI extends JFrame {
   public static final String EXIT = "Exit";
   public static final String FOLDENCRYPTION = "Folding Encryption";
   public static final String BIDIRSHIFTENCRYPTION = "BiShift Encryption";
+  public static final String CAESARCYPHERENCRYPTION = "CaesarCypher Encryption";
   public static final String FILEWRITER = "File Writer";
   public static final String DBWRITER = "Database Writer";
 
@@ -29,6 +30,7 @@ public class AgentGUI extends JFrame {
     cmbEncryptMethod = new JComboBox();
     cmbEncryptMethod.addItem(FOLDENCRYPTION);
     cmbEncryptMethod.addItem(BIDIRSHIFTENCRYPTION);
+    cmbEncryptMethod.addItem(CAESARCYPHERENCRYPTION);
 
     cmbLogMethod = new JComboBox();
 	cmbLogMethod.addItem(FILEWRITER);
@@ -186,6 +188,9 @@ class ButtonHandler implements ActionListener
 
        if(encryptWay.compareTo(AgentGUI.BIDIRSHIFTENCRYPTION)==0)
           info = new EncryptedInfo2(writer);
+
+       if(encryptWay.compareTo(AgentGUI.CAESARCYPHERENCRYPTION)==0)
+          info = new EncryptedInfo3(writer);
 
        System.out.println(firstNm + lastNm + code);
 
