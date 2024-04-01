@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5e1d1056-e820-4ef8-b60f-bd28314efd61" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/Homework 4.1-1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/Homework 4.1-1.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/src/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/src/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/src/SearchGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/src/SearchGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.AgentGUI">
+  <component name="RunManager" selected="应用程序.SearchGUI">
     <configuration name="AgentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AgentGUI" />
       <module name="【作业3.4-2】-桥接模式-特工信息" />
@@ -71,8 +74,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiagonalIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiagonalIterator" />
+      <module name="设计模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchGUI" />
+      <module name="设计模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchGUI" />
+      <module name="设计模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SearchGUI" />
+        <item itemvalue="应用程序.DiagonalIterator" />
+        <item itemvalue="应用程序.SearchGUI (1)" />
         <item itemvalue="应用程序.AgentGUI" />
         <item itemvalue="应用程序.ClientGUI" />
       </list>
@@ -91,7 +118,7 @@
       <workItem from="1711328618064" duration="9788000" />
       <workItem from="1711338627925" duration="53000" />
       <workItem from="1711447227439" duration="40000" />
-      <workItem from="1711932720354" duration="55000" />
+      <workItem from="1711932720354" duration="6434000" />
     </task>
     <servers />
   </component>

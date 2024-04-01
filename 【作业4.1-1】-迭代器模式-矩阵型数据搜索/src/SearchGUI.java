@@ -15,6 +15,7 @@ public class SearchGUI extends JPanel{
    public static final String SEARCH_BY_EVEN = "Search by Even Number";
    public static final String SEARCH_BY_ODD = "Search by Odd Number";
    public static final String TRAVERSE_CIRCULARLY = "Traverse CIrcularly";
+   public static final String TRAVERSE_DIAGONAL = "Traverse Diagonal";
    public static final String BLANK = "Choose Search Type";
    Matrix matrix;
 
@@ -49,6 +50,7 @@ public class SearchGUI extends JPanel{
       cmbSearchType.addItem(SEARCH_BY_EVEN);
       cmbSearchType.addItem(SEARCH_BY_ODD);
       cmbSearchType.addItem(TRAVERSE_CIRCULARLY);
+      cmbSearchType.addItem(TRAVERSE_DIAGONAL);
 
       JLabel lblHouseType = new JLabel("House Type:");
       JLabel lblHouseOptions = new JLabel("Options:");
@@ -160,7 +162,9 @@ public class SearchGUI extends JPanel{
 				}
 				else if(selection.equals(TRAVERSE_CIRCULARLY) ){
 				  iterator = matrix.createCircularIterator() ;
-				}
+				} else if(selection.equals(TRAVERSE_DIAGONAL) ){
+                   iterator = matrix.createDiagonalIterator() ;
+               }
 				String selectedNums = searchForProduct(iterator);
 				showSearchResult(selectedNums);
 			}

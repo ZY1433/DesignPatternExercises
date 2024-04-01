@@ -31,6 +31,9 @@ public class Matrix  implements Aggregate{
   public CircularIterator createCircularIterator() {
        return new CircularIterator(this);
   }
+  public DiagonalIterator createDiagonalIterator() {
+        return new DiagonalIterator(this);
+    }
   public int getLength() {
        return length;
   }
