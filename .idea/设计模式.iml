@@ -3,11 +3,17 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/模板代码" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/模板代码" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/【作业2.1-1】-工厂方法模式-汽车保险" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.1-1】-组合模式-空军指挥" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.2-2】-适配器模式-邮编验证" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.3-1】-外观模式-毕业生信息" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.4-2】-桥接模式-特工信息" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业4.1-1】-迭代器模式-矩阵型数据搜索/模板代码" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/模板代码" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
