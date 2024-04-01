@@ -341,6 +341,7 @@ public class SportsShoesGUI extends JFrame implements ItemListener{
           total = pv.getPriceTotal();
           txtAreaPrice.append("\n Total Price: " + total);
 
+          txtAreaData.setText(sv.describeShoes());
           //在这里添加两行代码，将所选定的鞋的信息显示到GUI的右上方的txtAreaData中
 	  }
       else if (e.getActionCommand().equals("Exit")) {
