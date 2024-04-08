@@ -9,6 +9,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/ShoeInfoVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/ShoeInfoVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.3-1】-命令模式-空调/Homework 4.3-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.3-1】-命令模式-空调/src/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.3-1】-命令模式-空调/src/ClientUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.3-1】-命令模式-空调/src/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.4-1】-中介者模式-商业信息共享/Homework 4.4-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.4-1】-中介者模式-商业信息共享/src/BusinessMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.4-1】-中介者模式-商业信息共享/src/BusinessMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业4.4-1】-中介者模式-商业信息共享/src/TestMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.4-1】-中介者模式-商业信息共享/src/TestMediator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,41 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.SportsShoesGUI">
-    <configuration name="AgentGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AgentGUI" />
-      <module name="【作业3.4-2】-桥接模式-特工信息" />
+}]]></component>
+  <component name="RunManager" selected="应用程序.TestMediator">
+    <configuration name="ClientUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientUI" />
+      <module name="设计模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DiagonalIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiagonalIterator" />
-      <module name="设计模式" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchGUI" />
       <module name="设计模式" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMediator" />
+      <module name="设计模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestMediator" />
+        <item itemvalue="应用程序.ClientUI" />
         <item itemvalue="应用程序.SportsShoesGUI" />
         <item itemvalue="应用程序.SearchGUI" />
         <item itemvalue="应用程序.DiagonalIterator" />
-        <item itemvalue="应用程序.SearchGUI (1)" />
-        <item itemvalue="应用程序.AgentGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +128,7 @@
       <workItem from="1711932720354" duration="8792000" />
       <workItem from="1711941809812" duration="790000" />
       <workItem from="1712110987895" duration="16000" />
-      <workItem from="1712539093401" duration="62000" />
+      <workItem from="1712539093401" duration="5648000" />
     </task>
     <servers />
   </component>

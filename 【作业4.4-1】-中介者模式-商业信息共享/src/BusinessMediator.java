@@ -14,6 +14,7 @@ public class BusinessMediator{
    private HotelGUI    hotelGui;
    private AirlineGUI  airlineGui;
    private TourGUI     tourGui;
+   private TouriststoreGUI touriststoreGUI;
 
    public void registerHotelGUI(HotelGUI hg){
       hotelGui = hg;
@@ -25,6 +26,9 @@ public class BusinessMediator{
       tourGui = tg;
    }
 
+    public void registerTouriststoreGUI(TouriststoreGUI tr){
+        touriststoreGUI = tr;
+    }
 
   public void addAllCandidateCus(String option, String text){
   	 if(option.compareTo(AirlineGUI.AIR)==0){
@@ -39,6 +43,10 @@ public class BusinessMediator{
 	    hotelGui.addCandidateCustomer(text);
 	    airlineGui.addCandidateCustomer(text);
      }
+     else if(option.compareTo(TouriststoreGUI.TOURISTSTORE)==0){
+         hotelGui.addCandidateCustomer(text);
+         airlineGui.addCandidateCustomer(text);
+     }
   }
 
 
@@ -46,14 +54,22 @@ public class BusinessMediator{
 	  if(option.compareTo(AirlineGUI.AIR)==0){
 	     hotelGui.displayInfoToScreen(text);
 	     tourGui.displayInfoToScreen(text);
+         touriststoreGUI.displayInfoToScreen(text);
       }
       else if(option.compareTo(HotelGUI.HOTEL)==0){
-	  	 airlineGui.displayInfoToScreen(text);
-	  	 tourGui.displayInfoToScreen(text);
+          airlineGui.displayInfoToScreen(text);
+          tourGui.displayInfoToScreen(text);
+          touriststoreGUI.displayInfoToScreen(text);
       }
       else if(option.compareTo(TourGUI.TOUR)==0){
-	  	 hotelGui.displayInfoToScreen(text);
-	  	 airlineGui.displayInfoToScreen(text);
+          hotelGui.displayInfoToScreen(text);
+          airlineGui.displayInfoToScreen(text);
+          touriststoreGUI.displayInfoToScreen(text);
+      }
+      else if(option.compareTo(TouriststoreGUI.TOURISTSTORE)==0){
+          hotelGui.displayInfoToScreen(text);
+          airlineGui.displayInfoToScreen(text);
+          tourGui.displayInfoToScreen(text);
       }
   }
 }

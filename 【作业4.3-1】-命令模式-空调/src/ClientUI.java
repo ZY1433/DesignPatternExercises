@@ -2,6 +2,8 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
+
+
 public class ClientUI extends JFrame {
   private JPanel btnPanel;
   private JPanel panel;
@@ -10,6 +12,16 @@ public class ClientUI extends JFrame {
   public static final String FANROTATE = "Start Fan";
   public static final String FANSTOP = "Stop Fan";
   public static final String EXIT = "Exit";
+
+	private class Invoker {
+		private Command command;
+		public Invoker( Command command) {
+			this.command = command;
+		}
+		void callCommand( ) { // call concrete Command, which executes the Command on the receiver
+			command.execute ( ) ;
+		}
+	}
 
   public ClientUI() {
         super("Command Pattern- Air Conditioning ");
