@@ -9,9 +9,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/ShoeInfoVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/ShoeInfoVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/Homework 4.2-1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/Homework 4.2-1.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/src/ShoeInfoVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/src/ShoeInfoVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/src/SportsShoesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业4.2-1】-访问者模式-名牌鞋查询/src/SportsShoesGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +119,9 @@
       <workItem from="1711338627925" duration="53000" />
       <workItem from="1711447227439" duration="40000" />
       <workItem from="1711932720354" duration="8792000" />
+      <workItem from="1711941809812" duration="790000" />
+      <workItem from="1712110987895" duration="16000" />
+      <workItem from="1712539093401" duration="62000" />
     </task>
     <servers />
   </component>
