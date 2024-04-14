@@ -13,7 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/【作业4.4-1】-中介者模式-商业信息共享/模板代码" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/【作业4.5-1】-策略模式-排序/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/【作业4.6-1】-状态模式-天气/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/【作业4.6-1】-状态模式-天气/模板代码" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/【作业4.6-1】-状态模式-天气/src/images" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/【作业2.1-1】-工厂方法模式-汽车保险" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.1-1】-组合模式-空军指挥" />
       <excludeFolder url="file://$MODULE_DIR$/【作业3.2-2】-适配器模式-邮编验证" />
@@ -27,6 +27,8 @@
       <excludeFolder url="file://$MODULE_DIR$/【作业4.4-1】-中介者模式-商业信息共享/模板代码" />
       <excludeFolder url="file://$MODULE_DIR$/【作业4.3-1】-命令模式-空调" />
       <excludeFolder url="file://$MODULE_DIR$/【作业4.4-1】-中介者模式-商业信息共享" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业4.5-1】-策略模式-排序" />
+      <excludeFolder url="file://$MODULE_DIR$/【作业4.5-1】-策略模式-排序/src" />
       <excludeFolder url="file://$MODULE_DIR$/【作业4.5-1】-策略模式-排序/模板代码" />
       <excludeFolder url="file://$MODULE_DIR$/【作业4.6-1】-状态模式-天气/模板代码" />
     </content>

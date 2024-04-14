@@ -17,7 +17,7 @@ public class RainyState extends WeatherState{
       return Color.gray;
    }
    public ImageIcon setImgIcon(){
-      ImageIcon rainyIcon = new ImageIcon("images/Rainy.jpg");
+      ImageIcon rainyIcon = new ImageIcon("【作业4.6-1】-状态模式-天气/src/images/Rainy.JPG");
       return rainyIcon;
    }
 }

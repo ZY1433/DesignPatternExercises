@@ -12,9 +12,10 @@ public abstract class WeatherState{
     protected final String SUNNY = "Sunny";
     protected final String RAINY = "Rainy";
     protected final String WINDY = "Windy";
+    protected final String SNOWING = "Snowing";
 
     protected String state;
-    private final String[] MOOD ={SUNNY, RAINY, WINDY};
+    private final String[] MOOD ={SUNNY, RAINY, WINDY, SNOWING};
 
     public void changeState() {
 	   Random generator = new Random();
@@ -30,6 +31,8 @@ public abstract class WeatherState{
 	      subState = new RainyState();
 	   else if(state.compareTo(WINDY) == 0)
 	      subState = new WindyState();
+       else if(state.compareTo(SNOWING) == 0)
+           subState = new SnowingState();
 	   return subState;
     }
     public abstract String act();

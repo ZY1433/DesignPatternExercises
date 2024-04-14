@@ -24,6 +24,7 @@ public class StrategyGUI extends JFrame {
   public static final String HEAP = "Heap Sort";
   public static final String INSERT = "Insertion Sort";
   public static final String QUICK = "Quick Sort";
+  public static final String BIDIRBUBBLE = "BidirBubble Sort";
 
   public StrategyGUI() {
      super("Strategy Pattern- Sorting Algirithms. ");
@@ -44,7 +45,8 @@ public class StrategyGUI extends JFrame {
 	  cmbAlgorithm.addItem(BUBBLE);
 	  cmbAlgorithm.addItem(HEAP);
 	  cmbAlgorithm.addItem(INSERT);
-	  cmbAlgorithm.addItem(QUICK);
+      cmbAlgorithm.addItem(QUICK);
+      cmbAlgorithm.addItem(BIDIRBUBBLE);
 
 	  lblAlgorithm = new JLabel("Sort Algorithm");
 
@@ -164,6 +166,9 @@ public class StrategyGUI extends JFrame {
 			 if (type.equals(QUICK)) {
 				sa = new QuickSort();
 		     }
+            if (type.equals(BIDIRBUBBLE)) {
+                sa = new BidirBubbleSort();
+            }
 
              context = new Context(sa);
 

@@ -3,7 +3,7 @@ public class BidirBubbleSort implements SortAlgorithm
 {
     //public int[] Algorithms(int[] nums)
 
-    public int[] sort(int[] nums)
+    public int[] sort(int[] nums, Context ct)
     {
         int j;
         int limit = nums.length;

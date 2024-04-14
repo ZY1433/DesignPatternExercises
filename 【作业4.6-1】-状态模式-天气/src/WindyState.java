@@ -16,7 +16,7 @@ public class WindyState extends WeatherState{
        return Color.yellow;
    }
    public ImageIcon setImgIcon(){
-       ImageIcon windyIcon = new ImageIcon("images/Windy.jpg");
+       ImageIcon windyIcon = new ImageIcon("【作业4.6-1】-状态模式-天气/src/images/Windy.jpg");
        return windyIcon;
    }
 }

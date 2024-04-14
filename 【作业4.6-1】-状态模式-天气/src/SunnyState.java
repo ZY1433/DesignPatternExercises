@@ -18,7 +18,7 @@ public class SunnyState extends WeatherState {
       return Color.green;
    }
    public ImageIcon setImgIcon(){
-      ImageIcon sunnyIcon = new ImageIcon("images/Sunny.jpg");
+      ImageIcon sunnyIcon = new ImageIcon("【作业4.6-1】-状态模式-天气/src/images/Sunny.jpg");
       return sunnyIcon;
    }
 }
