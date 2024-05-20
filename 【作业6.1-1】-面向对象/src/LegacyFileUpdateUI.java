@@ -23,55 +23,55 @@ public class LegacyFileUpdateUI extends JPanel{
    private static final String PROCESS = "Process";
    private static final String RESET = "Reset";
    private static final String EXIT = "Exit";
-   private static final String TEXTFILES = "TextFiles/";
+   private static final String TEXTFILES = "【作业6.1-1】-面向对象/src/TextFiles/";
    private static final Dimension minimumSize = new Dimension(230, 200);
-   private static final String UPDATEDFILES = "UpdatedFiles/";
+   private static final String UPDATEDFILES = "【作业6.1-1】-面向对象/src/UpdatedFiles/";
 
    public LegacyFileUpdateUI(){
       super(new GridLayout(1,0));
-	  filterInfoTxt=new JTextArea(6, 20);
-	  filterInfoTxt.setText("Input text is displayed in the 1st text area below\n");
-	  filterInfoTxt.append("Political correction text is displayed in the 2nd text area below\n");
-	  filterInfoTxt.append("Y2K correction text is displayed in the 3rd text area below\n");
-	  filterInfoTxt.append("Sorted text is displayed in the 4th text area below");
-	  setUpButtonPanel();
+       filterInfoTxt=new JTextArea(6, 20);
+       filterInfoTxt.setText("Input text is displayed in the 1st text area below\n");
+       filterInfoTxt.append("Political correction text is displayed in the 2nd text area below\n");
+       filterInfoTxt.append("Y2K correction text is displayed in the 3rd text area below\n");
+       filterInfoTxt.append("Sorted text is displayed in the 4th text area below");
+       setUpButtonPanel();
       buildUpScrollGUI();
    }
 
    private void buildUpScrollGUI(){
       txtArea = new JTextArea[4];
-	  txtPane = new JScrollPane[4];
-	  for(int m=0;m<txtArea.length; m++){
-	     txtArea[m] = new JTextArea();
-	  	 txtArea[m].setMinimumSize(new Dimension(250, 300));
-	  	 txtPane[m] = new JScrollPane(txtArea[m]);
-	  }
-	  btnPane = new JScrollPane(buttonPanel);
-	  btnPane.setMinimumSize(minimumSize);
-	  filterInfoPane = new JScrollPane(filterInfoTxt);
+       txtPane = new JScrollPane[4];
+       for(int m=0;m<txtArea.length; m++){
+           txtArea[m] = new JTextArea();
+           txtArea[m].setMinimumSize(new Dimension(250, 300));
+           txtPane[m] = new JScrollPane(txtArea[m]);
+       }
+       btnPane = new JScrollPane(buttonPanel);
+       btnPane.setMinimumSize(minimumSize);
+       filterInfoPane = new JScrollPane(filterInfoTxt);
 
-	  upSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-	  upSplitPane.setDividerLocation(300);
-	  upSplitPane.setPreferredSize(new Dimension(600, 350));
-	  upSplitPane.setLeftComponent(btnPane);
-	  upSplitPane.setRightComponent(filterInfoPane);
+       upSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+       upSplitPane.setDividerLocation(300);
+       upSplitPane.setPreferredSize(new Dimension(600, 350));
+       upSplitPane.setLeftComponent(btnPane);
+       upSplitPane.setRightComponent(filterInfoPane);
 
-	  downPanel = new JPanel();
-	  downPanel.setLayout(new GridLayout(1,0));
-	  for(int m=0; m<txtPane.length;m++)
-	      downPanel.add(txtPane[m]);
+       downPanel = new JPanel();
+       downPanel.setLayout(new GridLayout(1,0));
+       for(int m=0; m<txtPane.length;m++)
+           downPanel.add(txtPane[m]);
 
-	  bigSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, upSplitPane, downPanel);
-	  bigSplitPane.setDividerLocation(180);
+       bigSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, upSplitPane, downPanel);
+       bigSplitPane.setDividerLocation(180);
 
-	  add(bigSplitPane);
-	  setSize(new Dimension(600, 400));
+       add(bigSplitPane);
+       setSize(new Dimension(600, 400));
       setVisible(true);
   }
 
   private void setUpButtonPanel(){
-	 cmbFileList = new JComboBox();
-	 String[] cl = extractFileList();
+      cmbFileList = new JComboBox();
+      String[] cl = extractFileList();
      setupFileList(cmbFileList,cl);
 
      lblFile = new JLabel("Choose A FIle:");
@@ -98,8 +98,8 @@ public class LegacyFileUpdateUI extends JPanel{
      buttonPanel.add(exitButton);
 
      gbc.insets.top = 5;
-	 gbc.insets.bottom = 5;
-	 gbc.insets.left = 5;
+      gbc.insets.bottom = 5;
+      gbc.insets.left = 5;
      gbc.insets.right = 5;
      gbc.anchor = GridBagConstraints.EAST;
      gbc.gridx = 0;
@@ -119,7 +119,7 @@ public class LegacyFileUpdateUI extends JPanel{
      gbc.gridy = 9;
      gridbag.setConstraints(resetButton, gbc);
      gbc.gridx = 2;
-	 gbc.gridy = 9;
+      gbc.gridy = 9;
      gridbag.setConstraints(exitButton, gbc);
   }
   // Get a selected file name from user input
@@ -141,13 +141,13 @@ public class LegacyFileUpdateUI extends JPanel{
   }
   // Display file process information to text area
   public void displayFileProcInfo(JTextArea txtArea, ArrayList<String> a ){
-	   for(int n=0;n<a.size(); n++)
-			txtArea.append(a.get(n));
+      for(int n=0;n<a.size(); n++)
+          txtArea.append(a.get(n));
   }
   // Clean the display areas
   public void resetTextArea(JTextArea[] ta){
-	    for(int m=0;m<ta.length; m++)
-		      ta[m].setText("");
+      for(int m=0;m<ta.length; m++)
+          ta[m].setText("");
   }
   class ButnListener implements ActionListener{
       public void actionPerformed(ActionEvent e){
@@ -155,36 +155,37 @@ public class LegacyFileUpdateUI extends JPanel{
                System.exit(1);
           }
           if (e.getActionCommand().equals(RESET)){
-			  resetTextArea( txtArea);
+              resetTextArea( txtArea);
           }
           if (e.getActionCommand().equals(PROCESS)){
-			   resetTextArea( txtArea);
+              resetTextArea( txtArea);
                String selectedFile = getSelectedFile();
-		       try{
-					  String inFileStr=TEXTFILES+selectedFile;
-					  Input in = new Input(inFileStr);
-					  ArrayList<String> txtInFile = in.update();
-					  displayFileProcInfo(txtArea[0], txtInFile );
+              try{
+                  String inFileStr=TEXTFILES+selectedFile;
+                  Input in = new Input(inFileStr);
+                  ArrayList<String> txtInFile = in.update();
+                  displayFileProcInfo(txtArea[0], txtInFile );
 
-					  PoliticalIssue poli = new PoliticalIssue(txtInFile) ;
-					  ArrayList<String> txtPoliFile = poli.update();
-					  displayFileProcInfo(txtArea[1], txtPoliFile);
+                  PoliticalIssue poli = new PoliticalIssue(txtInFile) ;
+                  ArrayList<String> txtPoliFile = poli.update();
+                  displayFileProcInfo(txtArea[1], txtPoliFile);
+                  //Students write code about Y2KFixer. The result can be
+                  //displayed onto the 3rd screen of the lower part of the GUI
+                  Y2KFixer y2KFixer = new Y2KFixer(txtInFile);
+                  ArrayList<String> y2KFixerFile = y2KFixer.update();
+                  displayFileProcInfo(txtArea[2], y2KFixerFile);
 
-					  //Students write code about Y2KFixer. The result can be
-					  //displayed onto the 3rd screen of the lower part of the GUI
+                  Sorting st = new  Sorting(txtPoliFile) ;
+                  ArrayList<String> txtSortFile = st.update();
+                  displayFileProcInfo(txtArea[3], txtSortFile);
 
-					  Sorting st = new  Sorting(txtPoliFile) ;
-					  ArrayList<String> txtSortFile = st.update();
-					  displayFileProcInfo(txtArea[3], txtSortFile);
-
-					  String updatedFileNM = UPDATEDFILES+"Updated_"+selectedFile;
-					  Output out = new Output(txtSortFile, updatedFileNM) ;
-					  ArrayList<String> txtOutFile = out.update();
-	         }
-	         catch (java.io.IOException ioe){
-			      System.out.println("IO error" );
-			      ioe.printStackTrace();
-	         }
+                  String updatedFileNM = UPDATEDFILES+"Updated_"+selectedFile;
+                  Output out = new Output(txtSortFile, updatedFileNM) ;
+                  ArrayList<String> txtOutFile = out.update();
+              } catch (java.io.IOException ioe){
+                  System.out.println("IO error" );
+                  ioe.printStackTrace();
+              }
        }
      }
   } // End of class ButnListener
@@ -200,10 +201,10 @@ public class LegacyFileUpdateUI extends JPanel{
      frame.setVisible(true);
   }
   static public void main(String argv[]) {
-	 javax.swing.SwingUtilities.invokeLater(new Runnable() {
-	    public void run() {
-		   createAndShowGUI();
-		}
+      javax.swing.SwingUtilities.invokeLater(new Runnable() {
+          public void run() {
+              createAndShowGUI();
+          }
         });
   }
 }

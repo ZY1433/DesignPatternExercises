@@ -6,40 +6,126 @@
   <component name="ChangeListManager">
     <list default="true" id="5e1d1056-e820-4ef8-b60f-bd28314efd61" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/设计模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/设计模式.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/AcademicRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/Award.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/ClientGUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/ClientGUI$ButtonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/ClientGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentAcademicModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentAwardModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentBasicInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentBasicInfoModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentInfoFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/Tuition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/AgentGUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/AgentGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/AgentInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/ButtonHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/DBApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/DBWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/EncryptedInfo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/EncryptedInfo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/EncryptedInfo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/FileWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/MessageWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/MiscUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/RainyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SnowingState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StateAnimatGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SunnyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WeatherState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WindyState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentAcademicRecord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentAward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/StudentBasicInfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.3-1】-外观模式-毕业生信息/Tuition.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/【作业3.4-2】-桥接模式-特工信息/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AcademicRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Adidas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Aggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Airforce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirforceGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirforceGUI$ButtonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirforceGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirlineGUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/AirlineGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Award.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/B1B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/B2A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/B52.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Bomber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/BusinessMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/C130E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/C130J.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/CV22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/CircularIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientGUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientUI$Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ClientUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/DCShoesRover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/DiagonalIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/E9A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/EC130.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/EPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/EvenNumIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/F15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/F16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/F22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/FanOffCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/FanOnCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Fighter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GFan$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GFan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GlobeAppleyard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/GlobeBlitz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Homework 4.1-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Homework 4.2-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Homework 4.3-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Homework 4.4-1.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/HotelGUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/HotelGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Mephisto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Nike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/NorthFace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/NumberIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/OddNumIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/PonyMexico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/PriceVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/RunningShoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Salomon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SearchGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SearchGUI$ButtonHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SearchGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/ShoeInfoVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SkatingShoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportShoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI$ButtonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/SportsShoesGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Squadron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentAcademicModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentAcademicRecord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentAward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentAwardModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentBasicInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentBasicInfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentBasicInfoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/StudentInfoFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TestMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TourGUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TourGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TouriststoreGUI$ButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/TouriststoreGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Transporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Tuition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Tuition.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WalkingSheos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WindowCloseCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/WindowOpenCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/Wing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/hs_err_pid2720.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/images/Rainy.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/images/Snowing.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/images/Sunny.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/images/Windy.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/【作业2.1-1】-工厂方法模式-汽车保险/【作业2.1-1】-工厂方法模式-汽车保险.iml" beforeDir="false" afterPath="$PROJECT_DIR$/【作业2.1-1】-工厂方法模式-汽车保险/【作业2.1-1】-工厂方法模式-汽车保险.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/【作业3.3-1】-外观模式-毕业生信息.iml" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.3-1】-外观模式-毕业生信息/【作业3.3-1】-外观模式-毕业生信息.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/【作业3.4-2】-桥接模式-特工信息.iml" beforeDir="false" afterPath="$PROJECT_DIR$/【作业3.4-2】-桥接模式-特工信息/【作业3.4-2】-桥接模式-特工信息.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/Homework 6.1-1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/Homework 6.1-1.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/LegacyFileUpdateUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/LegacyFileUpdateUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/TextFiles/Sale1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/TextFiles/Sale1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.1-1】-面向对象/src/UpdatedFiles/Updated_Sale4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.5-1】-MVC/Homework 6.5-1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.5-1】-MVC/Homework 6.5-1.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/CarAuctionGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/CarAuctionGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/CarModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/【作业6.5-1】-MVC/src/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +136,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -72,32 +159,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ZHANGYANG/Desktop/新建文件夹/设计模式/综合作业-奶茶店销售系统&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/ZHANGYANG/Desktop/新建文件夹",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZHANGYANG\Desktop\新建文件夹\设计模式\综合作业-奶茶店销售系统" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.AirforceGUI">
+  <component name="RunManager" selected="应用程序.CarAuctionGUI">
     <configuration name="AirforceGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AirforceGUI" />
       <module name="设计模式" />
@@ -105,9 +194,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClientUI" />
-      <module name="设计模式" />
+    <configuration name="CarAuctionGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarAuctionGUI" />
+      <module name="【作业6.5-1】-MVC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LegacyFileUpdateUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LegacyFileUpdateUI" />
+      <module name="【作业6.1-1】-面向对象" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LegacyFileUpdateUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LegacyFileUpdateUI" />
+      <module name="【作业6.1-1】-面向对象" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,27 +224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="T" />
-      <module name="设计模式" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMediator" />
-      <module name="设计模式" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CarAuctionGUI" />
+        <item itemvalue="应用程序.LegacyFileUpdateUI (1)" />
+        <item itemvalue="应用程序.LegacyFileUpdateUI" />
         <item itemvalue="应用程序.AirforceGUI" />
         <item itemvalue="应用程序.SportsShoesGUI" />
-        <item itemvalue="应用程序.T" />
-        <item itemvalue="应用程序.TestMediator" />
-        <item itemvalue="应用程序.ClientUI" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +263,16 @@
       <workItem from="1714889147357" duration="198000" />
       <workItem from="1714978589073" duration="92000" />
       <workItem from="1715236425723" duration="1388000" />
-      <workItem from="1716181369303" duration="119000" />
+      <workItem from="1716181369303" duration="2034000" />
+      <workItem from="1716183435783" duration="7141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -33,16 +33,16 @@ public class CarAuctionGUI extends JPanel{
    static final String SEARCH = "Search";
    static final String BIT = "Bit";
    static final String EXIT = "Exit";
-   static final String CARFILES = "CarFiles";
+   static final String CARFILES = "【作业6.5-1】-MVC/src/CarFiles";
 
    public CarAuctionGUI(){
       super(new GridLayout(1,0));
-	  bitShownText=new JTextArea("Bit price for each car will be shown here", 6, 20);
+       bitShownText=new JTextArea("Bit price for each car will be shown here", 6, 20);
 
       carModel = new CarModel();
-	  civ= new CarPictureInfoView(carModel,this);
-	  cb = new CarBitInfoView(carModel, this);
-	  cf = new CarFileInfoView(carModel, this);
+       civ= new CarPictureInfoView(carModel,this);
+       cb = new CarBitInfoView(carModel, this);
+       cf = new CarFileInfoView(carModel, this);
       carModel.register(civ);
       carModel.register(cb);
       carModel.register(cf);
@@ -53,49 +53,49 @@ public class CarAuctionGUI extends JPanel{
    private void buildUpScrollGUI(){
       setUpButtonPanel();
 
-	  imgLabel = new JLabel();
+       imgLabel = new JLabel();
       imgLabel.setBackground(Color.green);
-	  imgLabel.setMinimumSize(new Dimension(250, 200));
+       imgLabel.setMinimumSize(new Dimension(250, 200));
 
       editorPane = new JEditorPane();
-	  editorPane.setEditable(false);
+       editorPane.setEditable(false);
 
       imagePane = new JScrollPane(imgLabel);
 
-	  btnPane = new JScrollPane(buttonPanel);
-	  textPane = new JScrollPane(editorPane);
-	  textPane.setMinimumSize(new Dimension(250, 200));
+       btnPane = new JScrollPane(buttonPanel);
+       textPane = new JScrollPane(editorPane);
+       textPane.setMinimumSize(new Dimension(250, 200));
 
-	  bitInfo = new JScrollPane(bitShownText);
+       bitInfo = new JScrollPane(bitShownText);
 
-	  upSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-	  upSplitPane.setLeftComponent(btnPane);
-	  upSplitPane.setRightComponent(bitInfo);
+       upSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+       upSplitPane.setLeftComponent(btnPane);
+       upSplitPane.setRightComponent(bitInfo);
 
-	  downSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-	  downSplitPane.setLeftComponent(imagePane);
-	  downSplitPane.setRightComponent(textPane);
-	  downSplitPane.setDividerLocation(150);
+       downSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+       downSplitPane.setLeftComponent(imagePane);
+       downSplitPane.setRightComponent(textPane);
+       downSplitPane.setDividerLocation(150);
 
-	  Dimension minimumSize = new Dimension(130, 100);
-	  imagePane.setMinimumSize(minimumSize);
-	  btnPane.setMinimumSize(minimumSize);
-	  textPane.setMinimumSize(new Dimension(100, 100));
-	  upSplitPane.setDividerLocation(270);
-	  upSplitPane.setPreferredSize(new Dimension(500, 300));
+       Dimension minimumSize = new Dimension(130, 100);
+       imagePane.setMinimumSize(minimumSize);
+       btnPane.setMinimumSize(minimumSize);
+       textPane.setMinimumSize(new Dimension(100, 100));
+       upSplitPane.setDividerLocation(270);
+       upSplitPane.setPreferredSize(new Dimension(500, 300));
 
-	  bigSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, upSplitPane, downSplitPane);
-	  bigSplitPane.setDividerLocation(190);
+       bigSplitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, upSplitPane, downSplitPane);
+       bigSplitPane.setDividerLocation(190);
 
-	  add(bigSplitPane);
-	  setSize(new Dimension(500, 400));
+       add(bigSplitPane);
+       setSize(new Dimension(500, 400));
       setVisible(true);
   }
 
   private void setUpButtonPanel(){
 
-	 cmbCarList = new JComboBox();
-	 String[] cl = getCarList();
+      cmbCarList = new JComboBox();
+      String[] cl = getCarList();
      setUpCarList(cl);
 
      carlbl = new JLabel("Cars:");
@@ -164,11 +164,11 @@ public class CarAuctionGUI extends JPanel{
      gridbag.setConstraints(exitButton, gbc);
 
      gbc.gridx = 0;
-	 gbc.gridy = 4;
+      gbc.gridy = 4;
      gridbag.setConstraints(bitButton, gbc);
 
      gbc.gridx = 1;
-	 gbc.gridy = 4;
+      gbc.gridy = 4;
      gridbag.setConstraints(bitInputText, gbc);
   }
 
@@ -182,34 +182,33 @@ public class CarAuctionGUI extends JPanel{
         validate();
      }
      catch (IOException e) {
-	    e.printStackTrace();
+         e.printStackTrace();
      }
   }
   public String getBitPrice(){
-     return	bitInputText.getText();
+     return bitInputText.getText();
   }
   public void showBitPrice(String price ){
      bitShownText.append(price);
   }
 
   public String getSelectedCar() {
-  	    return (String) cmbCarList.getSelectedItem();
+      return (String) cmbCarList.getSelectedItem();
   }
   public String[] getCarList(){
 
      File f = new File(CARFILES);
-  	 String [] fileNames = f.list();
-
-  	 for(int i=0; i<fileNames.length; i++ ){
-  	    int len = fileNames[i].length();
-  		fileNames[i]=fileNames[i].substring(0,len-5);
-  	 }
-  	 return fileNames;
+      String [] fileNames = f.list();
+      for(int i=0; i<fileNames.length; i++ ){
+          int len = fileNames[i].length();
+          fileNames[i]=fileNames[i].substring(0,len-5);
+      }
+      return fileNames;
   }
   public void setUpCarList(String[] carList){
      for(int k=0; k<carList.length; k++) {
-  	    cmbCarList.addItem(carList[k]);
-  	 }
+         cmbCarList.addItem(carList[k]);
+     }
   }
 
   private static void createAndShowGUI(){
@@ -226,10 +225,10 @@ public class CarAuctionGUI extends JPanel{
   }
 
   static public void main(String argv[]) {
-	 javax.swing.SwingUtilities.invokeLater(new Runnable() {
-	    public void run() {
-		   createAndShowGUI();
-		}
+      javax.swing.SwingUtilities.invokeLater(new Runnable() {
+          public void run() {
+              createAndShowGUI();
+          }
         });
   }
 }
