@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dataAccess.dao.EmployeMapper">
+
+    <select id="findAll" resultType="Employe">
+        select *
+        from tb_employe
+        where status = "正常"
+    </select>
+
+
+    <select id="queryLike" resultType="Employe">
+        select *
+        from tb_employe
+        where name like '%${name}%'
+           or sex like '%${sex}%'
+           or user like '%${user}%'
+    </select>
+
+    <select id="query" resultType="Employe">
+        select *
+        from tb_employe
+        where user=#{user}
+    </select>
+
+
+    <update id="upDateEmploye">
+        update tb_Employe
+        <set>
+            <if test="#{empl.name} != null">name=#{empl.name},</if>
+            <if test="#{empl.sex} != null">sex=#{empl.sex},</if>
+            <if test="#{empl.user} != null">user=#{empl.user},</if>
+            <if test="#{empl.passwd} != null">passwd=#{empl.passwd}</if>
+        </set>
+        where e_id=#{oe_id}
+    </update>
+
+    <update id="updatePass">
+        update tb_Employe
+        <set>
+            passwd=#{newPassword}
+        </set>
+        where user=#{user}
+    </update>
+
+    <!-- <delete id="delEmploye" >
+    delete from tb_employe where e_id =#{e_id}
+    </delete> -->
+
+    <update id="delEmploye">
+        update tb_employe
+        set status="离职"
+        where e_id = #{e_id}
+    </update>
+
+    <insert id="addEmploye">
+        insert into tb_employe (name, sex, user, passwd, status)
+        values (#{empl.name}, #{empl.sex}, #{empl.user}, #{empl.passwd}, '正常')
+    </insert>
+
+
+</mapper>

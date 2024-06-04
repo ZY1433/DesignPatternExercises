@@ -1,0 +1,49 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class C_label
+class CheckFrame
+class DBUtil
+class DetailLabel
+class Drink
+class Drink_label
+class FrontFrame
+enum ICE << enumeration >>
+class MainFrame
+class MetaDrink
+interface OrderCommand << interface >>
+class OrderReceiver
+enum SIZE << enumeration >>
+enum SUGER << enumeration >>
+class SubmitOrderCommand
+class TeaShopMediator
+class UserGUI
+
+CheckFrame          -[#595959,dashed]->  MetaDrink          : "«create»"
+DBUtil              -[#595959,dashed]->  Drink_label        : "«create»"
+Drink              "1" *-[#595959,plain]-> "ice\n1" ICE
+Drink              "1" *-[#595959,plain]-> "size\n1" SIZE
+Drink              "1" *-[#595959,plain]-> "suger\n1" SUGER
+FrontFrame         "1" *-[#595959,plain]-> "list2\n*" DetailLabel
+MainFrame           -[#595959,dashed]->  C_label            : "«create»"
+MainFrame           -[#595959,dashed]->  DetailLabel        : "«create»"
+MainFrame          "1" *-[#595959,plain]-> "detailLabelList\n*" DetailLabel
+MainFrame          "1" *-[#595959,plain]-> "drinklist\n*" Drink
+MainFrame           -[#595959,dashed]->  Drink              : "«create»"
+MainFrame           -[#595959,dashed]->  Drink_label        : "«create»"
+MainFrame          "1" *-[#595959,plain]-> "labelList\n*" Drink_label
+MainFrame           -[#595959,dashed]->  OrderReceiver      : "«create»"
+MainFrame           -[#595959,dashed]->  SubmitOrderCommand : "«create»"
+OrderReceiver       -[#595959,dashed]->  CheckFrame         : "«create»"
+SubmitOrderCommand  -[#008200,dashed]-^  OrderCommand
+SubmitOrderCommand "1" *-[#595959,plain]-> "receiver\n1" OrderReceiver
+TeaShopMediator    "1" *-[#595959,plain]-> "cookGui\n1" FrontFrame
+TeaShopMediator    "1" *-[#595959,plain]-> "orderGui\n1" MainFrame
+UserGUI             -[#595959,dashed]->  FrontFrame         : "«create»"
+UserGUI             -[#595959,dashed]->  MainFrame          : "«create»"
+UserGUI            "1" *-[#595959,plain]-> "mediator\n1" TeaShopMediator
+UserGUI             -[#595959,dashed]->  TeaShopMediator    : "«create»"
+@enduml

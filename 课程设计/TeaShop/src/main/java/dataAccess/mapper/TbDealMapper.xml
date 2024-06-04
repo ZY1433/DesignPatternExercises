@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dataAccess.dao.TbDealMapper">
+    <resultMap id="BaseResultMap" type="TbDeal">
+        <id column="dd_id" jdbcType="CHAR" property="ddId"/>
+        <result column="dd_date" jdbcType="TIMESTAMP" property="ddDate"/>
+        <result column="total" jdbcType="REAL" property="total"/>
+        <result column="e_id" jdbcType="INTEGER" property="eId"/>
+        <result column="isMer" jdbcType="CHAR" property="ismer"/>
+        <result column="m_id" jdbcType="CHAR" property="mId"/>
+        <result column="point" jdbcType="INTEGER" property="point"/>
+        <result column="num" jdbcType="INTEGER" property="num"/>
+    </resultMap>
+
+    <select id="findAll" resultType="TbDeal">
+        select *
+        from tb_deal
+        where status = '有效'
+    </select>
+
+
+    <select id="queryLike" resultType="TbDeal">
+        select *
+        from tb_deal
+        where status = '有效'
+          and (dd_id like '%${dd_id}%' or m_id like '%${m_id}%')
+    </select>
+
+
+    <update id="upDate" parameterType="TbDeal">
+        update tb_deal
+        set total = #{total,jdbcType=REAL},
+            m_id  = #{m_Id,jdbcType=CHAR},
+            point = #{point,jdbcType=INTEGER}
+        where dd_id = #{dd_Id,jdbcType=CHAR}
+    </update>
+
+
+    <!-- <delete id="deleteDeal" >
+    delete from tb_deal where dd_id=${dd_id}
+    </delete>
+     -->
+
+    <update id="deleteDeal">
+        update tb_deal
+        set status="无效"
+        where dd_id = ${dd_id}
+    </update>
+
+
+    <!-- 按月查询总金额 -->
+    <select id="getTotalAmountByMonth" resultType="map">
+        SELECT DATE_FORMAT(dd_date, '%Y-%m') AS month, SUM(total) AS total_amount
+        FROM tb_deal
+        GROUP BY DATE_FORMAT(dd_date, '%Y-%m')
+        ORDER BY month
+    </select>
+
+    <!-- 按日查询总金额 -->
+    <select id="getTotalAmountByDay" resultType="map">
+        SELECT DATE(dd_date) AS day, SUM(total) AS total_amount
+        FROM tb_deal
+        GROUP BY DATE(dd_date)
+        ORDER BY day
+    </select>
+
+</mapper>

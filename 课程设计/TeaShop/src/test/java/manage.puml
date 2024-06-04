@@ -1,0 +1,49 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class AddCategory
+class AddDrink
+class AlterCategory
+class AlterDrink
+class AlterPass
+class DealPanel
+class DrinkPanel
+class Employe
+class EmployePanel
+class ManageGUI
+class MembPanel
+class Member
+class PasswdPanel
+class PointRecordFrame
+class SealPanel
+class TbDeal
+interface TbDealMapper << interface >>
+class TbDetail
+class TbDetailKey
+
+DealPanel         -[#595959,dashed]->  TbDeal           : "«create»"
+DealPanel        "1" *-[#595959,plain]-> "mlist\n*" TbDeal
+DealPanel        "1" *-[#595959,plain]-> "detaillist\n*" TbDetail
+DrinkPanel        -[#595959,dashed]->  AddCategory      : "«create»"
+DrinkPanel        -[#595959,dashed]->  AddDrink         : "«create»"
+DrinkPanel        -[#595959,dashed]->  AlterCategory    : "«create»"
+DrinkPanel        -[#595959,dashed]->  AlterDrink       : "«create»"
+EmployePanel      -[#595959,dashed]->  Employe          : "«create»"
+EmployePanel     "1" *-[#595959,plain]-> "elist\n*" Employe
+ManageGUI         -[#595959,dashed]->  DealPanel        : "«create»"
+ManageGUI         -[#595959,dashed]->  DrinkPanel       : "«create»"
+ManageGUI         -[#595959,dashed]->  EmployePanel     : "«create»"
+ManageGUI         -[#595959,dashed]->  MembPanel        : "«create»"
+ManageGUI         -[#595959,dashed]->  PasswdPanel      : "«create»"
+ManageGUI         -[#595959,dashed]->  SealPanel        : "«create»"
+MembPanel         -[#595959,dashed]->  Member           : "«create»"
+MembPanel        "1" *-[#595959,plain]-> "mlist\n*" Member
+MembPanel         -[#595959,dashed]->  PointRecordFrame : "«create»"
+PasswdPanel       -[#595959,dashed]->  AlterPass        : "«create»"
+PasswdPanel       -[#595959,dashed]->  MembPanel        : "«create»"
+SealPanel        "1" *-[#595959,plain]-> "tbDealMapper\n1" TbDealMapper
+TbDetail          -[#000082,plain]-^  TbDetailKey
+@enduml

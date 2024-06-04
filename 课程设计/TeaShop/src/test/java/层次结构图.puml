@@ -1,0 +1,44 @@
+@startuml
+package 表示层{
+    class ManageGUI
+    class UserGUI
+}
+
+package 应用层{
+
+    package cook {
+    }
+
+    package manage {
+
+    }
+
+    package order {
+
+    }
+
+    package teaBuilder {
+
+    }
+}
+
+package 数据层{
+    package config {
+    }
+
+    package dao {
+    }
+
+    package entity {
+    }
+
+    package mapper {
+    }
+
+    package util {
+    }
+}
+
+表示层 --> 应用层
+应用层 --> 数据层
+@enduml
